@@ -1,0 +1,11 @@
+.linksBlock {
+    background-color: #8aedb5;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    text-decoration: none;
+
+}

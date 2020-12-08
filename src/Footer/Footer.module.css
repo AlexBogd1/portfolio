@@ -1,0 +1,16 @@
+.footerContainer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.title {
+    background-color: #b5acff;
+}
+
+.footerBlock {
+    height: 20vh;
+    background-color: cornflowerblue;
+}

@@ -9,7 +9,7 @@ function Contacts() {
     return (
         <div className={style.contactsBlock}>
             <div className={`${commonStyle.container} ${style.contactsContainer}`}>
-                <h2 className={style.title}>My Works</h2>
+                <h2 className={style.title}>Contacts</h2>
                 <div>
                     <ContactsForm/>
                 </div>
