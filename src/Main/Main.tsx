@@ -1,12 +1,12 @@
 import React from 'react'
 import style from './Main.module.css'
-
+import commonStyle from '../common/styles/Common.module.css'
 
 function Main() {
 
     return (
         <div className={style.mainBlock}>
-            <div className={style.container}>
+            <div className={commonStyle.container}>
                 <div className={style.text}>
                     <span>Hi There</span>
                     <h1>
