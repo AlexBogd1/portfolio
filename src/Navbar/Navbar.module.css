@@ -5,3 +5,15 @@
     justify-content: space-between;
 }
 
+
+@media(max-width: 450px){
+    .navbar {
+        border: 1px solid antiquewhite;
+        width: 370px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 23px;
+    }
+}
+
+

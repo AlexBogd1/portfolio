@@ -1,9 +1,9 @@
-.skill {
+.work {
     width: 250px;
     background-color: #96dded;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 
 }
 
@@ -20,3 +20,4 @@
 .button {
     height: 40px;
 }
+

@@ -1,7 +1,6 @@
 .contactsBlock {
-    height: 40vh;
-    background-color: #c8ffb0;
 
+    background-color: #c8ffb0;
 }
 
 .contactsContainer {
@@ -20,4 +19,18 @@
 .button {
     padding: 10px 30px;
     margin: 5px;
+}
+
+
+@media(max-width: 750px){
+    .contactsBlock {
+        background-color: #c8ffb0;
+    }
+    .contactsContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
 }

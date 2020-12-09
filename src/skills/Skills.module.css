@@ -16,9 +16,27 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
 }
 
 .title {
     background-color: burlywood;
+}
+
+@media (max-width: 750px){
+    .skillsContainer {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .skills {
+        border: 1px solid;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
 }

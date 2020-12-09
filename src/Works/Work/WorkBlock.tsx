@@ -11,7 +11,7 @@ type WorkBlockType = {
 function WorkBlock(props: WorkBlockType) {
 
     return (
-        <div className={style.skill}>
+        <div className={style.work}>
             <div className={style.icon}>
                 <button className={style.button}>Смотреть</button>
             </div>

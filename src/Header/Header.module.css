@@ -1,7 +1,28 @@
 .header {
     height: 80px;
     background-color: #cd9049;
+    text-decoration: none;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+
+@media (max-width: 450px) {
+    .header {
+        height: 80px;
+        font-size: 20px;
+        background-color: #cd9049;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header a {
+        text-decoration: none;
+    }
 }

@@ -1,5 +1,4 @@
 .worksBlock {
-    height: 100vh;
     background-color: #ffae9f;
 }
 
@@ -16,9 +15,31 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
 }
 
 .title {
     background-color: burlywood;
+}
+
+@media (max-width: 750px) {
+    .worksBlock {
+        text-align: center;
+        background-color: #ffae9f;
+    }
+
+    .worksContainer {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .works {
+        text-align: center;
+        border: 1px solid;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
