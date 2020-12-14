@@ -1,11 +1,12 @@
 .linksBlock {
     background-color: #8aedb5;
-    width: 300px;
     display: flex;
     justify-content: space-between;
+    min-width: inherit;
 }
 
 .link {
     text-decoration: none;
+    margin: 0px 5px;
 
 }
